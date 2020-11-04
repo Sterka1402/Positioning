@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #4a99d2;
+}
+
+.text{
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.icon {
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    z-index: 100;
+}
+
+.main {
+    background-color: rgba(33, 63, 101, 0.7);
+    margin: 20px auto;
+    padding: 35px 30px 30px 50px;
+    position: relative;
+}
+
+p{
+    padding: 10px 0;
+}
+
+.birds img {
+    margin: 10px;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-45%, -55%);
+    z-index: 5;
+}
+
+.cloud2{
+    position: absolute;
+    top: 5%;
+    left: -30%;
+}
+
+.cloud3{
+    position: absolute;
+    top: 22%;
+    right: -28%;
+}
+
+.cloud4{
+    position: absolute;
+    top: 27%;
+    left:  1%;
+}
+
+.grass{ 
+    
+    background-image: url("img/grass.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0%;
+    left:  0%;
+    z-index: 100;
+} 
+
+ul {
+   list-style-type: none;
+}
+
+.twitter {
+    background-color: lightskyblue;
+    border: 1px solid white;
+    border-radius: 50px; 
+    padding: 5px;
+}
+
+.facebook{
+    background-color: #5f84cc;
+    border: 1px solid white;
+    border-radius: 50px; 
+    padding: 5px;
+}
+
+.instagram{   
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+50,533cbc+86,533cbc+86 */
+    background: #cb60b3; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #cb60b3 0%, #ad1283 50%, #533cbc 86%, #533cbc 86%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #cb60b3 0%,#ad1283 50%,#533cbc 86%,#533cbc 86%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #cb60b3 0%,#ad1283 50%,#533cbc 86%,#533cbc 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#533cbc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: 1px solid white;
+    border-radius: 50px; 
+    padding: 5px;
+}
+
+
